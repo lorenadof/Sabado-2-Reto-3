@@ -1,0 +1,81 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-container {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00ccbb;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+.dias-disponibles label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.terminos {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #00ccbb;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #004999;
+}
+
+.agradecimiento {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    ;
+}
+
